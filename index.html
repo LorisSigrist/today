@@ -30,6 +30,8 @@
       color:  var(--theme-color);
 
       filter: invert(1);
+      
+      user-select: none;
     }
 
     .date {
@@ -51,14 +53,12 @@
   </style>
 </head>
 
-<body style="
-  --theme-color: hsl(61.79286453813749, 100%, 50%);
-  ">
+<body style="--theme-color: hsl(355.7921800612498, 100%, 50%);">
   <hgroup>
     <p class="today-is">Today is</p>
     <h1 class="date">March 27, 2023</h1>
     <span class="note">
-      Assuming you're in the same timezone as UTC.
+      Using timezone: UTC
     </span>
   </hgroup>
 </body>
