@@ -9,4 +9,4 @@ This is intended as demo showing how to redeploy an application based on a CRON-
 This is useful for static sites that have some slowly changing content.
 For example: A documentation site that shows how many downloads the NPM package has.
 
-Read `.github/workflows/main.yml` for details information.
+Read `.github/workflows/main.yml` for details.
