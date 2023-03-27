@@ -30,6 +30,8 @@
       color:  var(--theme-color);
 
       filter: invert(1);
+      
+      user-select: none;
     }
 
     .date {
@@ -51,14 +53,12 @@
   </style>
 </head>
 
-<body style="
-  --theme-color: {{ color }};
-  ">
+<body style="--theme-color: {{ color }};">
   <hgroup>
     <p class="today-is">Today is</p>
     <h1 class="date">{{date }}</h1>
     <span class="note">
-      Assuming you're in the same timezone as {{ timezone }}.
+      Using timezone: {{ timezone }}
     </span>
   </hgroup>
 </body>
