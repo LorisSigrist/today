@@ -1,6 +1,6 @@
 # TODAY
 Every day at 00:00 UTC, the site is redeployed and shows the current date.
-If this is still working, then [this site](https://LorisSigrist.github.io/today) will show the current date.
+If this is still working, then [this site](https://today.sigrist.dev) will be showing the current date.
 
 
 
